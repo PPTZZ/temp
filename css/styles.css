@@ -84,8 +84,8 @@ ul {
   list-style: none;
 }
 
-.section {
-  padding: 16px;
+.section{
+  margin-bottom: 3.8rem;
 }
 
 .section-title{
@@ -289,7 +289,6 @@ margin-top: 3.8rem;
   .atribute-list__container {
     flex-flow: column;
     align-items: center;
-    margin-bottom: 1.9rem;
 
     .atribute-list__icon-background {
       width: 25rem;
@@ -450,14 +449,33 @@ a:focus .client-list__background {
   flex-direction: column;
 	align-items: center;
 	justify-content: space-around;
-	gap: 70px;
+	gap: 60px;
 }
 
 .footer-logo {
-	p {
-		color: var(--white);
-		margin-bottom: 30px;
-	}
+  color: var(--white);
+  font-family: var(--font-secondary);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.18px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  
+
+  span {
+    color: var(--color-primary);
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+  }
+}
+
+.footer__addres{
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
 }
 
 .address-container {
